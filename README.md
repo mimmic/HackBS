@@ -1,5 +1,5 @@
 # HackBS
-매매내역 Buy/Sell position 분석툴
+Buy/Sell position analysis tool (chart and lob)
 
 ## Reference
 Chart : trading-vue-js (https://github.com/tvjsx/trading-vue-js)
