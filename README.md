@@ -16,7 +16,9 @@ https://mimmic.github.io/HackBS/
 
 
 data_format = {
+
   '종목코드' :  {
+  
     'data' : {
         'ohlcv' : [[gmtime, open, low, close, volume] ...] => 1분봉
 
