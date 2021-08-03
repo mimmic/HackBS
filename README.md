@@ -15,17 +15,17 @@ https://mimmic.github.io/HackBS/
 ## Data Format
 
 data_format = {
-
   '종목코드' :  {
-  
     'data' : {
+    
         'ohlcv' : [[gmtime, open, low, close, volume] ...] => 1분봉
 
         'onchart' : [{
-            'name': 'BS_Marker',
-            'type': 'BS_Marker', 
+            'name' : 'BS_Marker',
+            'type' : 'BS_Marker',
+            'settings' : {'z-index': 5},
             'data' : [[gmtime, price, 'BSBSSS', [매매내역 volume들], '07/21 09:00'] ...] => 1분간의 매매내역
-        }, ...]
+        }]
     }
     
     'hoga' : [['09:00:00', total_offerrem, total_bidrem, max(offerrem, bidrem), 
